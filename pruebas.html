@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Proyecto bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap5/css/bootstrap.min.css">
+	<script type="text/javascript" src="bootstrap5/js/bootstrap.min.js"></script>
+	</head>
+<body>
+
+		<div class="container">
+
+
+			<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+			
+			<h1>cuando lo sabes, lo sabes</h1>
+			
+
+			<button class="btn btn-outline-primary">when you know, you know</button>
+
+			<h1>ACORDION LA CHONA</h1>
+
+			<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+</div>
+
+	<H1>ALERTAS BITCHES</H1>
+
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+		<h1>Badge</h1>
+		<button type="button" class="btn btn-primary">
+  		Notifications <span class="badge text-bg-secondary">4</span>
+		</button>
+
+		<h1>grupo de botones</h1>
+		<div class="btn-group" role="group" aria-label="Basic outlined example">
+  			<button type="button" class="btn btn-outline-primary">Left</button>
+  			<button type="button" class="btn btn-outline-primary">Middle</button>
+  			<button type="button" class="btn btn-outline-primary">Right</button>
+		</div>
+
+		<h1>Carrusel</h1>
+			<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="data:image/jpeg;base64,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" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://us-tuna-sounds-images.voicemod.net/50fb108b-3121-4b42-a712-a26e59a66cb0-1673411269000.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://icdn.planb.mx/uploads/2022/04/FB_IMG_1642304708844-1.jpg?strip=all&lossy=1&resize=720%2C734&ssl=1" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+		<h1>colapso</h1>
+		<p class="d-inline-flex gap-1">
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+		<h1>progreso pa</h1>
+			<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 0%"></div>
+</div> <br>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 25%"></div>
+</div> <br>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 50%"></div>
+</div> <br>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 75%"></div>
+</div> <br>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 100%"></div>
+</div>
+
+		</div>
+
+</body>
+</html>
