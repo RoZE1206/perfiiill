@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap5/css/bootstrap.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.audioControls.min.js"></script>
+    <script src="js/Funciones.js"></script>
+</head>
+<body>
+<div class="container">
+
+    <ul class="list-group mt-5 playlist">
+        <li class="list-group-item" data-src="Canciones/The Way You Make Me Feel (2012 Remaster)(MP3_320K).mp3">
+            <a href="#">Michael Jackson - The way you make me feel</a>
+        </li>
+        <li class="list-group-item" data-src="Canciones/">
+            <a href="#">Wrap me in plastic</a>
+        </li>
+        <li class="list-group-item"><a href="#">Summertime K-391</a>
+        </li>
+        <li class="list-group-item" data-src="Canciones/Five Nights at Freddy_s 1 Song - The Living Tombstone(MP3_320K).mp3">
+            <a href="#">The living Tombstone - Five Nights At Freddy's</a>
+        </li>
+        <li class="list-group-item">
+            <a href="#">The living tombstone - It's been so long</a>
+        </li>
+      </ul>
+
+      <hr>
+
+      <div class="row justify-content-between">
+        <span class="col-3 bg-primary nombremp3"></span>
+        <span class="col-3 bg-primary text-end audioTime" data-attr="timer"></span>
+      </div>
+
+      <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+        <div class="progress-bar progress-bar-striped progress-bar-animated updateProgress" style="width: 75%"></div>
+      </div>
+      <a href="#" class="play" data-attr="playPauseAudio">a</a>
+
+</div>    
+</body>
+</html>
