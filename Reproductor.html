@@ -8,6 +8,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery.audioControls.min.js"></script>
     <script src="js/Funciones.js"></script>
+    <script src="js/prueba.js"></script>
     <script src="https://kit.fontawesome.com/0f25780317.js" crossorigin="anonymous"></script>
 
 <style>
@@ -36,7 +37,7 @@
 
 </head>
 <body>
-<div class="container fondo">
+<div class="container">
     <div class="row justify-content-center">
 <div class="col-xs-12 col-s-12 col-m-6 col-l-6 col-xxl-6">
     <div class="row justify-content-between">
@@ -52,35 +53,35 @@
 
     <div class="row text-center mt-2">
         <div class="col">
-            <img src="IMG/kevin.png" width="200px" >
+            <img id="cancion-imagen" src="IMG/disco1.png" width="200px">
         </div>
     </div>
-
-    <div class="row text-center">
+    
+    <div class="row text-center mt-2">
         <div class="col">
-            <h2>Kevin Kaarl</h2>
-            <h3>por qué no me comprendes?</h3>
+            <h2 id="cancion-titulo"></h2>
         </div>
     </div>
+    
 
 
 </div>
 
 <div class="col-xs-12 col-s-12 col-m-6 col-l-6 col-xxl-6 border-left border-dark">
     <ul class="list-group mt-5 playlist list-group-flush list-group-item-dark">
-    <li class="list-group-item" data-src="Songs/por qué no me comprendes.mp3">
-        <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0" >por qué no me comprendes? - Kevin Kaarl</a>
-    </li>
-    <li class="list-group-item" data-src="Songs/LOKERA.mp3">
+        <li class="list-group-item" data-src="Songs/por qué no me comprendes.mp3" data-imagen="IMG/kevin.png" >
+            <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0">por qué no me comprendes? - Kevin Kaarl</a>
+        </li>        
+    <li class="list-group-item" data-src="Songs/LOKERA.mp3"  data-imagen="IMG/saturno.png" >
         <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0">LOKERA - Rauw Alejandro</a>
     </li>
-    <li class="list-group-item" data-src="Songs/Blue World.mp3">
+    <li class="list-group-item" data-src="Songs/Blue World.mp3"  data-imagen="IMG/mac.png" >
         <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0">Blue World - Mac Miller</a>
     </li>
-    <li class="list-group-item" data-src="Songs/La Old Skul.mp3">
+    <li class="list-group-item" data-src="Songs/La Old Skul.mp3"  data-imagen="IMG/viceversa.png" >
         <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0">La Old Skul - Rauw Alejandro</a>
     </li>
-    <li class="list-group-item" data-src="Songs/LOVE.mp3">
+    <li class="list-group-item" data-src="Songs/LOVE.mp3"  data-imagen="IMG/kendrick.png" z>
         <a href="#" class="link-secondary link-offset-2 link-underline-opacity-0">LOVE - Kendrick Lamar</a>
     </li>
   </ul>
