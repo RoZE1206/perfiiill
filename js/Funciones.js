@@ -7,8 +7,9 @@ $(document).ready(function()
         timer:'increment',
         onAudioChange:function(datos)
         {
-            $(".nombremp3").text(datos.title);
+            $(".nombremp3").text();
         }
+        
     });
-
+   
 });
